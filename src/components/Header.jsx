@@ -9,7 +9,7 @@ function Header() {
                     <span className='header-link'>About</span>
                     <span className='header-link'>Research</span>
                     <span className='header-link'>Teaching</span>
-                    <span className='header-link'>Service</span>
+                    <span className='header-link'>Services</span>
                 </div>
             </div>
         </section>
