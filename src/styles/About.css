@@ -1,0 +1,87 @@
+.about {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-bottom: 64px;
+}
+
+.about-body {
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+
+.about-cody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+    font-size: 1.1rem;
+    line-height: 2.4rem;
+}
+
+.about-cody-bottom {
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.about-link {
+    color: black;
+    font-style: italic;
+    transition: 0.1s ease all;
+}
+
+.about-link:hover {
+    color: red;
+}
+
+.about-image {
+    width: 35%;
+    height: auto;
+    border: 1px solid black;
+}
+
+.awards {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.awards-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 140px;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.awards-body {
+    display: flex;
+    justify-content: space-between;
+}
+
+.award-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 25%;
+    padding: 24px 4px;
+    border: 1px solid black;
+    transition: 0.2s ease all;
+}
+
+.award-container:hover{
+    transform: scale(1.1);
+}
+
+.award-subtitle {
+    margin-top: 10px;
+    font-size: .7em;
+}
