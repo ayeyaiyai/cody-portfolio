@@ -1,4 +1,4 @@
-.about {
+.section-container {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -33,14 +33,14 @@ a {
     font-weight: 700;
 }
 
-.about-link, .award-title {
+.link, .award-title {
     color: black;
     font-style: italic;
     text-decoration: underline;
     transition: 0.1s ease all;
 }
 
-.about-link:hover, .award-link:hover .award-title {
+.link:hover, .award-link:hover .award-title {
     color: red;
 }
 

@@ -1,0 +1,38 @@
+#research {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+
+.research-body {
+    margin-top: 100px;
+    width: 75%;
+}
+
+.current-work-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.current-work-underline {
+    width: 100%;
+    background-color: white;
+    height: 1px;
+}
+
+.research-paragraph {
+    line-height: 1.6rem;
+}
+
+#full-research-statement {
+    margin-top: 48px;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+.research-link {
+    color: white;
+}
