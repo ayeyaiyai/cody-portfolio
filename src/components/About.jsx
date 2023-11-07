@@ -3,11 +3,11 @@ import codyTeaching from '../images/cody-teaching.jpg';
 
 function About() {
     return (
-        <section className="about">
+        <section className="section-container">
             <section className='about-body'>
                 <div className='about-cody'>
-                    <div className='about-cody-top'>I am a fifth year Ph.D. student in mathematics at the University of Iowa. My advisor is Ryan Kinser. I am interested in problems in quiver representation theory and algebraic geometry. Specifically, I study moduli spaces of representations of algebras and their applications, as well as stability conditions on quiver representations. Recent work of mine includes <a href='https://arxiv.org/abs/2208.00336' className='about-link'>classifying moduli spaces of representations of clannish algebras</a> as well as <a href='https://arxiv.org/abs/2208.02445' className='about-link'>reducing the number of necessary inequalities to check when determining whether a stability function is totally stable for Dynkin quivers.</a></div>
-                    <div className='about-cody-bottom'>My CV can be found <a href='https://drive.google.com/file/d/1sivFZbQEFhX5Up4WvopMd4eo_zWWlQCZ/view?pli=1' className='about-link'>here</a>. Please do not hesitate to email me in case you need any more information!</div>
+                    <div className='about-cody-top'>I am a fifth year Ph.D. student in mathematics at the University of Iowa. My advisor is Ryan Kinser. I am interested in problems in quiver representation theory and algebraic geometry. Specifically, I study moduli spaces of representations of algebras and their applications, as well as stability conditions on quiver representations. Recent work of mine includes <a href='https://arxiv.org/abs/2208.00336' className='link'>classifying moduli spaces of representations of clannish algebras</a> as well as <a href='https://arxiv.org/abs/2208.02445' className='link'>reducing the number of necessary inequalities to check when determining whether a stability function is totally stable for Dynkin quivers.</a></div>
+                    <div className='about-cody-bottom'>My CV can be found <a href='https://drive.google.com/file/d/1sivFZbQEFhX5Up4WvopMd4eo_zWWlQCZ/view?pli=1' className='link'>HERE.</a> Please do not hesitate to email me in case you need any more information!</div>
                 </div>
                 <img src={codyTeaching} alt='cody teaching' className='about-image'/>
             </section>
