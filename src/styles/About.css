@@ -6,6 +6,11 @@
     margin-bottom: 64px;
 }
 
+a {
+    text-decoration: none;
+    font-style: none;
+}
+
 .about-body {
     display: flex;
     justify-content: space-between;
@@ -28,13 +33,14 @@
     font-weight: 700;
 }
 
-.about-link {
+.about-link, .award-title {
     color: black;
     font-style: italic;
+    text-decoration: underline;
     transition: 0.1s ease all;
 }
 
-.about-link:hover {
+.about-link:hover, .award-link:hover .award-title {
     color: red;
 }
 
@@ -65,11 +71,7 @@
     justify-content: space-between;
 }
 
-.award-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.award-link {
     text-align: center;
     width: 25%;
     padding: 24px 4px;
@@ -77,11 +79,20 @@
     transition: 0.2s ease all;
 }
 
-.award-container:hover{
+.award-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.award-link:hover{
     transform: scale(1.1);
 }
 
 .award-subtitle {
     margin-top: 10px;
     font-size: .7em;
+    font-style: none;
+    color: black;
 }
