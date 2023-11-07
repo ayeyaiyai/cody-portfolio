@@ -14,18 +14,24 @@ function About() {
             <section className='awards'>
                 <div className='awards-header'>Awards</div>
                 <div className='awards-body'>
-                    <div className='award-container'>
-                        <span className='award-title'><a href='https://grad.uiowa.edu/funding/fellowships/Iowa-recruitment' className='about-link'>Iowa Recruitment Fellowship</a></span>
-                        <span className='award-subtitle'>Fall 2018 - Spring 2023</span>
-                    </div>
-                    <div className='award-container'>
-                        <span className='award-title'><a href='https://grad.uiowa.edu/funding/fellowships/post-comp' className='about-link'>Post Comprehensive Research Fellowship</a></span>
-                        <span className='award-subtitle'>Spring 2021</span>
-                    </div>
-                    <div className='award-container'>
-                        <span className='award-title'><a href='https://grad.uiowa.edu/funding/fellowships/ballard-seashore' className='about-link'>Ballard and Seashore Dissertation Fellowship</a></span>
-                        <span className='award-subtitle'>Spring 2023</span>
-                    </div>
+                    <a href='https://grad.uiowa.edu/funding/fellowships/Iowa-recruitment' className='award-link'>
+                        <div className='award-container'>
+                            <span className='award-title'>Iowa Recruitment Fellowship</span>
+                            <span className='award-subtitle'>Fall 2018 - Spring 2023</span>
+                        </div>
+                    </a>
+                    <a href='https://grad.uiowa.edu/funding/fellowships/post-comp' className='award-link'>
+                        <div className='award-container'>
+                            <span className='award-title'>Post Comprehensive Research Fellowship</span>
+                            <span className='award-subtitle'>Spring 2021</span>
+                        </div>
+                    </a>
+                    <a href='https://grad.uiowa.edu/funding/fellowships/ballard-seashore' className='award-link'>
+                        <div className='award-container'>
+                            <span className='award-title'>Ballard and Seashore Dissertation Fellowship</span>
+                            <span className='award-subtitle'>Spring 2023</span>
+                        </div>
+                    </a>
                 </div>
             </section>
         </section>
