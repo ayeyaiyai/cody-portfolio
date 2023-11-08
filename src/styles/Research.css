@@ -67,7 +67,7 @@
 }
 
 .down-arrow-container {
-    transition: 1.2s ease all;
+    transition: 1s ease all;
 }
 
 .down-arrow-container.rotate-arrow {
@@ -77,11 +77,15 @@
 .work-paragraph-container.hidden {
     max-height: 0;
     overflow: hidden;
-    transition: 1.2s max-height ease;
+    transition: 1s all ease;
 }
 
 .work-paragraph-container.visible {
-    max-height: 1000px;
+    max-height: 400px;
     overflow: hidden;
-    transition: 2.5s max-height ease;
+    transition: 1s all ease;
+}
+
+#workshops {
+    margin-bottom: 64px;
 }
