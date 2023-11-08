@@ -54,10 +54,6 @@
     color: red;
 }
 
-.work-header:hover .visible-title {
-    color: white;
-}
-
 .work-header-top {
     display: flex;
     justify-content: space-between;
@@ -71,7 +67,7 @@
 }
 
 .down-arrow-container {
-    transition: 0.3s ease all;
+    transition: 1.2s ease all;
 }
 
 .down-arrow-container.rotate-arrow {
@@ -79,13 +75,13 @@
 }
 
 .work-paragraph-container.hidden {
-    display: none;
-    opacity: 0;
-    transition: opacity 0.3s ease;
+    max-height: 0;
+    overflow: hidden;
+    transition: 1.2s max-height ease;
 }
 
 .work-paragraph-container.visible {
-    display: block;
-    opacity: 1;
-    transition: opacity 0.3s ease;
+    max-height: 1000px;
+    overflow: hidden;
+    transition: 2.5s max-height ease;
 }
