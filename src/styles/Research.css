@@ -89,3 +89,9 @@
 #workshops {
     margin-bottom: 64px;
 }
+
+@media (min-width: 1500px) {
+    .research-body {
+        width: 60%;
+    }
+}

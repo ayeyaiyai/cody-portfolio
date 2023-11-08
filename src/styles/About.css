@@ -90,9 +90,13 @@ a {
 }
 
 .award-link {
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     width: 25%;
-    padding: 24px 4px;
+    padding: 24px 12px;
     border: 1px solid black;
     transition: 0.2s ease all;
 }
@@ -113,4 +117,15 @@ a {
     font-size: .7em;
     font-style: none;
     color: black;
+}
+
+@media (min-width: 1500px) {
+    .about-header, .about-body {
+        width: 60%;
+    }
+
+    .awards {
+        width: 50%;
+        align-items: center;
+    }
 }
