@@ -1,3 +1,9 @@
+
+a {
+    text-decoration: none;
+    font-style: none;
+}
+
 .section-container {
     display: flex;
     flex-direction: column;
@@ -6,16 +12,30 @@
     margin-bottom: 64px;
 }
 
-a {
-    text-decoration: none;
-    font-style: none;
+.about-header {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin-top: 140px;
+}
+
+.about-title, .awards-header {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.about-underline {
+    width: 100%;
+    background-color: black;
+    height: 1px;
+    margin-bottom: 16px;
 }
 
 .about-body {
     display: flex;
     justify-content: space-between;
     width: 75%;
-    margin-top: 140px;
     margin-bottom: 100px;
 }
 
@@ -62,8 +82,6 @@ a {
     align-items: center;
     width: 100%;
     height: 140px;
-    font-size: 2rem;
-    font-weight: 700;
 }
 
 .awards-body {
