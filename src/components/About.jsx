@@ -4,6 +4,10 @@ import codyTeaching from '../images/cody-teaching.jpg';
 function About() {
     return (
         <section className="section-container">
+            <div className='about-header'>
+                <span className='about-title'>About Me</span>
+                <div className='about-underline'></div>
+            </div>
             <section className='about-body'>
                 <div className='about-cody'>
                     <div className='about-cody-top'>I am a fifth year Ph.D. student in mathematics at the University of Iowa. My advisor is Ryan Kinser. I am interested in problems in quiver representation theory and algebraic geometry. Specifically, I study moduli spaces of representations of algebras and their applications, as well as stability conditions on quiver representations. Recent work of mine includes <a href='https://arxiv.org/abs/2208.00336' className='link'>classifying moduli spaces of representations of clannish algebras</a> as well as <a href='https://arxiv.org/abs/2208.02445' className='link'>reducing the number of necessary inequalities to check when determining whether a stability function is totally stable for Dynkin quivers.</a></div>
