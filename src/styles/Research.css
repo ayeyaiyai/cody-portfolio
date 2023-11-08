@@ -7,17 +7,17 @@
 }
 
 .research-body {
-    margin-top: 100px;
+    margin-top: 140px;
     width: 75%;
 }
 
-.current-work-title {
+.current-work-title, .work-title {
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: .2rem;
 }
 
-.current-work-underline {
+.research-underline {
     width: 100%;
     background-color: white;
     height: 1px;
@@ -31,8 +31,61 @@
     margin-top: 48px;
     font-size: 1.4rem;
     font-weight: 700;
+    margin-bottom: 48px;
 }
 
 .research-link {
     color: white;
+}
+
+.work-dropdown {
+    margin-bottom: 48px;
+}
+
+.work-header {
+    cursor: pointer;
+}
+
+.work-title {
+    transition: 0.3s ease all;
+}
+
+.work-header:hover .work-title, .visible-title{
+    color: red;
+}
+
+.work-header:hover .visible-title {
+    color: white;
+}
+
+.work-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.down-arrow {
+    width: 20px;
+    height: 20px;
+    filter: invert(100%) sepia(60%) saturate(2%) hue-rotate(123deg) brightness(114%) contrast(101%);
+}
+
+.down-arrow-container {
+    transition: 0.3s ease all;
+}
+
+.down-arrow-container.rotate-arrow {
+    transform: rotate(-180deg);
+}
+
+.work-paragraph-container.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.work-paragraph-container.visible {
+    display: block;
+    opacity: 1;
+    transition: opacity 0.3s ease;
 }
