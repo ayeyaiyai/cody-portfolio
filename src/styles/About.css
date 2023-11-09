@@ -10,6 +10,7 @@ a {
     width: 100%;
     align-items: center;
     margin-bottom: 64px;
+    min-width: 375px;
 }
 
 .about-header {

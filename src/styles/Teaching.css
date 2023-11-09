@@ -55,6 +55,16 @@
     justify-content: flex-end;
 }
 
+@media (max-width: 768px) {
+    .teaching-body {
+        width: 80%;
+    }
+
+    .classes-list {
+        width: 100%;
+    }
+}
+
 @media (min-width: 1500px) {
     .teaching-body {
         width: 60%;

@@ -4,6 +4,7 @@
     align-items: center;
     background-color: black;
     color: white;
+    min-width: 375px;
 }
 
 .research-body {
@@ -90,6 +91,12 @@
 
 #workshops {
     margin-bottom: 64px;
+}
+
+@media (max-width: 768) {
+    .research-body {
+        width: 80%;
+    }
 }
 
 @media (min-width: 1500px) {
