@@ -11,16 +11,16 @@ function App() {
   return (
     <div className='container'>
       <Header />
-      <section className='about-section'>
+      <section id='about-section'>
         <About />
       </section>
-      <section className='research-section'>
+      <section id='research-section'>
         <Research />
       </section>
-      <section className='teaching-section'>
+      <section id='teaching-section'>
         <Teaching />
       </section>
-      <section className='services-section'>
+      <section id='services-section'>
         <Services />
       </section>
     </div>
