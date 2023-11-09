@@ -1,0 +1,43 @@
+#services {
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+}
+
+.services-container {
+    width: 75%;
+    margin-top: 140px;
+}
+
+.services-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.services-underline {
+    width: 100%;
+    height: 1px;
+    background-color: white;
+}
+
+.services-body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.service-instance {
+    width: 60%;
+    text-align: center;
+}
+
+.services-name {
+    margin-top: 48px;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.right-align {
+    margin-left: auto;
+}
