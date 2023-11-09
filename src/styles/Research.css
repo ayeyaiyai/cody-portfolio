@@ -24,6 +24,7 @@
 }
 
 .research-paragraph {
+    font-size: 1rem;
     line-height: 1.6rem;
 }
 
@@ -82,6 +83,7 @@
 
 .work-paragraph-container.visible {
     max-height: 400px;
+    height: auto;
     overflow: hidden;
     transition: 1s all ease;
 }
