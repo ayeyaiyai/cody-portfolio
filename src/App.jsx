@@ -1,30 +1,29 @@
-import { useState } from 'react'
-import Header from './components/Header.jsx'
-import About from './components/About.jsx'
-import Research from './components/Research.jsx'
-import Teaching from './components/Teaching.jsx'
-import Services from './components/Services.jsx'
-import './App.css'
+import Header from './components/Header.jsx';
+import About from './components/About.jsx';
+import Research from './components/Research.jsx';
+import Teaching from './components/Teaching.jsx';
+import Services from './components/Services.jsx';
+import FadeInSection from './components/FadeInSection.jsx';
+import './App.css';
 
 function App() {
-
   return (
     <div className='container'>
       <Header />
-      <section id='about-section'>
+      <FadeInSection id='about'>
         <About />
-      </section>
-      <section id='research-section'>
+      </FadeInSection>
+      <FadeInSection id='research'>
         <Research />
-      </section>
-      <section id='teaching-section'>
+      </FadeInSection>
+      <FadeInSection id='teaching'>
         <Teaching />
-      </section>
-      <section id='services-section'>
+      </FadeInSection>
+      <FadeInSection id='services'>
         <Services />
-      </section>
+      </FadeInSection>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
