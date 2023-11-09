@@ -1,0 +1,62 @@
+#teaching {
+    width: 100%;
+}
+
+.teaching-body {
+    width: 75%;
+    margin-top: 140px;
+}
+
+.teaching-title {
+    font-size: 1.8rem;
+    font-weight: 600;
+    letter-spacing: .2rem;
+}
+
+.teaching-underline {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+}
+
+.teaching-statement {
+    font-size: 1rem;
+    line-height: 1.6rem;
+}
+
+.full-teaching-statement {
+    margin-top: 32px;
+    font-size: 1.4rem;
+    font-weight: 700;
+    margin-bottom: 48px;
+}
+
+#classes-header {
+    margin-bottom: 12px;
+}
+
+.classes-header {
+    margin-top: 48px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.classes-list {
+    width: 50%;
+}
+
+.class-paragraph {
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.class-right-align {
+    justify-content: flex-end;
+}
+
+@media (min-width: 1500px) {
+    .teaching-body {
+        width: 60%;
+    }
+}
