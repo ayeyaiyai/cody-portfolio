@@ -3,6 +3,7 @@ import Header from './components/Header.jsx'
 import About from './components/About.jsx'
 import Research from './components/Research.jsx'
 import Teaching from './components/Teaching.jsx'
+import Services from './components/Services.jsx'
 import './App.css'
 
 function App() {
@@ -18,6 +19,9 @@ function App() {
       </section>
       <section className='teaching-section'>
         <Teaching />
+      </section>
+      <section className='services-section'>
+        <Services />
       </section>
     </div>
   )
