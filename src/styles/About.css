@@ -119,6 +119,57 @@ a {
     color: black;
 }
 
+@media (max-width: 768px) {
+    .about-header {
+        width: 80%;
+    }
+
+    .about-body {
+        width: 80%;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 32px;
+    }
+
+    .about-cody {
+        width: 100%;
+    }
+
+    .about-cody-top {
+        margin-bottom: 32px;
+    }
+
+    .about-image {
+        margin-top: 32px;
+        height: auto;
+        width: 100%;
+    }
+
+    .awards {
+        display: flex;
+        width: 80%;
+    }
+
+    .awards-header {
+        max-height: 64px;
+        width: 100%;
+    }
+
+    .awards-body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .award-link {
+        margin-top: 16px;
+        box-sizing: border-box;
+        width: 100%;
+    }
+}
+
 @media (min-width: 1500px) {
     .about-header, .about-body {
         width: 60%;
