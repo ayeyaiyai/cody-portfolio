@@ -17,6 +17,7 @@
 }
 
 .header-name {
+    cursor: pointer;
     font-size: 1.8rem;
     font-weight: 600;
     letter-spacing: .2rem;
@@ -31,6 +32,18 @@
 .header-link:hover {
     font-size: 1.1rem;
     color: red;
+}
+
+@media (max-width: 768px) {
+    .header-body {
+        width: 80%;
+    }
+}
+
+@media (max-width: 680px) {
+    .header-link {
+        display: none;
+    }
 }
 
 @media (min-width: 1500px) {

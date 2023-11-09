@@ -93,7 +93,7 @@
     margin-bottom: 64px;
 }
 
-@media (max-width: 768) {
+@media (max-width: 768px) {
     .research-body {
         width: 80%;
     }

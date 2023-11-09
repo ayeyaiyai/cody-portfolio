@@ -41,3 +41,14 @@
 .right-align {
     margin-left: auto;
 }
+
+@media (max-width: 768px) {
+    .services-container {
+        width: 80%;
+    }
+
+    .service-instance {
+        text-align: left;
+        width: 100%;
+    }
+}
