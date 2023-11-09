@@ -4,6 +4,7 @@ import Research from './components/Research.jsx';
 import Teaching from './components/Teaching.jsx';
 import Services from './components/Services.jsx';
 import FadeInSection from './components/FadeInSection.jsx';
+import Contact from './components/Contact.jsx';
 import './App.css';
 
 function App() {
@@ -21,6 +22,9 @@ function App() {
       </FadeInSection>
       <FadeInSection id='services'>
         <Services />
+      </FadeInSection>
+      <FadeInSection id='contact'>
+        <Contact />
       </FadeInSection>
     </div>
   );
