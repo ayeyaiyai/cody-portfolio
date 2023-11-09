@@ -15,7 +15,7 @@ function Header() {
   return (
     <section className='header'>
       <div className='header-body'>
-        <div className='header-name'>Cody Gilbert</div>
+        <div onClick={() => scrollToSection('about')} className='header-name'>Cody Gilbert</div>
         <div className='header-links'>
           <span onClick={() => scrollToSection('about')} className='header-link'>
             About
