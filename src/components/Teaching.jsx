@@ -1,4 +1,5 @@
 import '../styles/Teaching.css';
+import FadeInSection from './FadeInSection';
 
 function Teaching() {
     return(
@@ -17,13 +18,13 @@ function Teaching() {
                     <div className='teaching-underline'></div>
                 </div>
                 <section className='classes-container'>
-                    <div className='classes-body'>
+                    <FadeInSection className='classes-body'>
                         <div className='classes-header'>Primary Instructor, University of Iowa</div>
                         <div className='classes-list'>
                             <p className='class-paragraph'>MATH 1005: College Algebra, Fall 2021.</p>
                         </div>
-                    </div>
-                    <div className='classes-body'>
+                    </FadeInSection>
+                    <FadeInSection className='classes-body'>
                         <p className='classes-header'>Graduate Teaching Assistant, University of Iowa</p>
                         <div className='classes-list'>
                             <p className='class-paragraph'>MATH 3720: Introduction to Abstract Algebra I, Fall 2022.</p>
@@ -33,13 +34,13 @@ function Teaching() {
                             <p className='class-paragraph'>MATH 1460: Calculus for the Biological Sciences, Spring 2019.</p>
                             <p className='class-paragraph'>MATH 1440: Mathematics for the Biological Sciences, Fall 2018.</p>
                         </div>
-                    </div>
-                    <div className='classes-body'>
+                    </FadeInSection>
+                    <FadeInSection className='classes-body'>
                         <p className='classes-header'>Teaching Practicum, University of Iowa</p>
                         <div className='classes-list'>
                             <p className='class-paragraph'>MATH 5000: Abstract Algebra I, Fall 2022.</p>
                         </div>
-                    </div>
+                    </FadeInSection>
                 </section>
             </section>
         </section>

@@ -1,5 +1,6 @@
 import '../styles/About.css';
 import codyTeaching from '../images/cody-teaching.jpg';
+import FadeInSection from './FadeInSection';
 
 function About() {
     return (
@@ -15,7 +16,7 @@ function About() {
                 </div>
                 <img src={codyTeaching} alt='cody teaching' className='about-image'/>
             </section>
-            <section className='awards'>
+            <FadeInSection className='awards'>
                 <div className='awards-header'>Awards</div>
                 <div className='awards-body'>
                     <a target="_blank" rel="noopener" href='https://grad.uiowa.edu/funding/fellowships/Iowa-recruitment' className='award-link'>
@@ -37,7 +38,7 @@ function About() {
                         </div>
                     </a>
                 </div>
-            </section>
+            </FadeInSection>
         </section>
     )
 }
