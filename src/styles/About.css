@@ -120,7 +120,18 @@ a {
     color: black;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1150px) {
+    .about-cody-top {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+
+    .about-cody-bottom {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 900px) {
     .about-header {
         width: 80%;
     }
@@ -138,6 +149,8 @@ a {
 
     .about-cody-top {
         margin-bottom: 32px;
+        font-size: 1.2rem;
+        line-height: 2.2rem;
     }
 
     .about-image {
@@ -179,5 +192,20 @@ a {
     .awards {
         width: 50%;
         align-items: center;
+    }
+}
+
+@media (min-width: 1900px) {
+    .about-cody {
+        font-size: 1.2vw;
+    }
+
+    .about-cody-bottom {
+        font-size: 1.3vw;
+    }
+
+    .about-image {
+        max-height: 650px;
+        width: auto;
     }
 }
